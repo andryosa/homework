@@ -1,0 +1,138 @@
+.nav{
+    list-style-type: none;
+    display: flex;
+    position: fixed;
+    /* background-image: url('../images/head.png') */
+
+}
+.nav>li>a{
+    /* next style is to remove underline from the link */
+    text-decoration: none;
+    background-color: #D6DB2B;
+    /* border: 1px solid black; */
+    font-size: 15px;
+    border-radius: 2px 2px 2px;
+    padding: 5px;
+    color: darkgreen
+
+}
+.nav>li{
+    float: left;
+    margin-right: 5px;
+}
+.nav>li>a:hover{
+    background-color:#4CCCE0;
+    font-size: 16px;
+    color: #606060;
+    /* border: 3px solid orange; */
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px grey
+}
+
+.subnav{
+    list-style-type: none;
+    padding: 5px;
+    /* border: solid 1px #D6DB2B; */
+    display: none;
+    margin-left: 20px;
+    background-color: #6060609f;
+
+}
+.subnav>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+   
+}
+.subnav>li{
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.nav>li:hover>.subnav{
+    display: block;
+}
+.subnav>li>a:hover{
+    list-style-type: none;
+    padding: 0px;
+    padding: 4px;
+    color: #D6DB2B;
+}
+.header{
+    /* background-color: #EE6624; */
+    background-image: url('../images/101.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 1% 1% 1% 1%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    float: left;
+
+}
+.leptop{
+    width: 200px;
+    margin-left: 20px;
+}
+.leptop:hover{
+    width: 220px;
+    margin-left: 20px;
+}
+
+h1{ margin-left: 30px;
+    color: #06495C;
+}
+
+body{
+    background-image: url('../images/10068.png');
+    background-size: 40%;
+    font-family: Verdana;
+}
+.leftside{
+    background-color: #D6DB2B;
+    height: 400px;
+    float: left;
+    width: 20%;
+    font-size: 15px;
+}
+.leftside li{
+    margin-top: 35px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.leftside>ul>li>a{
+    text-decoration: none;
+    color: darkgreen;
+    
+    
+}
+.content{
+        background-color: #4CCCE0;
+        height: 400px;
+        float: right;
+        width: 79%;
+        overflow-y: scroll;
+        color: white;
+        font-style: oblique;
+        margin-bottom: 20px
+    }
+
+    .par{
+        margin-left: 45px;
+        margin-right: 35px;
+    }
+
+.footer
+{
+    background-image: url(../images/footer.jpg);
+    width: 100%;
+    background-size: cover;
+    /* height: 100px; */
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+}
